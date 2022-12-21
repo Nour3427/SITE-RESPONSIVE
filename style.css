@@ -1,3 +1,9 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+
 .titre {
     text-align: center;
     font-family: sans-serif;
@@ -19,35 +25,234 @@
 .ensemble {
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    padding-bottom: 100px;
+    
+    
 }
 
 .ensemble1 {
     display: flex;
     justify-content: space-between;
-
+    justify-content: center;
 
 }
 
 .ensemble2 {
     display:flex;
     justify-content: space-between;
+    justify-content: center;
 
-  
+}
+svg{
+    width: 40px;
 
+    fill:white;
 }
 
 .svg {
-    width:44px;
-    height:44px;
-    color:blue;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height:80px;
+    background-color: #38d2d9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 30px;
 }
 .style {
     font-size:20px;
+    font-family: sans-serif;
+    margin:30px 0px 0px;
+    color:grey;
+    width:250px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.style p{
+    font-size: 14px;
+    font-style: italic;
+}
+.icones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+.learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #38d2d9;
+    width: 145px;
+    padding: 10px;
+    font-family: sans-serif;
+    
+    
+}
+.learn a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.droite{
+    height: 500px;
+    flex: 1;
+    background-image: url(https://cdn.discordapp.com/attachments/1034784282360692827/1054686855657947206/41683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
-.icones{
-    padding: 30px;
+
+.gauche{
+    background-color: rgba(245, 240, 240, 0.878);
+    height: 500px;
+    flex: 1;
+    padding: 60px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+   
+.milieu{
+    width: 100%;
+    display: flex;
+}
+.gauche h2{
+    font-size: 40px;
+}
+.gauche h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.bouton{
+    width: 170px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #38d2d9;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 12px;
+    margin-top: 30px;
+    
+
+    
+}
+#prblm{
+margin-bottom: 100px;
+}
+.bouton a{
+    color:white;
+    text-decoration: none;
+}
+.get{
+    background-color: #38d2d9;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+#btn{
+    background-color: white;
+}
+#btn a{
+    
+    color:#38d2d9;
+}
+.know{
+    width: 700px;
+    padding: 50px;
+}
+.know h3{
+    font-size: 30px;
+}
+.business{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.business p{
+    margin-bottom: 250px;
+}
+.business h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+#view{
+    background-color: black;
+    border:none;
+    
+}
+#view a{
+    color:white;
+}
+.noir{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 18px;
+}
+.gris{
+    background-color: rgb(34, 33, 33);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 18px;
+}
+.gris a{
+    color: #38d2d9;
+}
+@media screen and (max-width:990px){
+    .ensemble1{
+        flex-wrap: wrap;
+    }
+    .ensemble2{
+        flex-wrap: wrap;
+
+
+    }
+    .gauche{
+        display: block;
+    }
 
 }
