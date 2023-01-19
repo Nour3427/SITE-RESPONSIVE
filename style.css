@@ -1,3 +1,4 @@
+
 body{
     margin:0;
     padding: 0;
@@ -149,6 +150,214 @@ svg{
     font-weight: bold;
     line-height: 1.5;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.burger {
+    width: 43px;
+    height: 4px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.acc {
+    height: 700px;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/bd23b643629d5e02bf80d32a/dsmin.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+
+}
+.paracontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.665) ;
+    max-width: min-content;
+    max-height: min-content;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.vide{
+    width: 200px;
+    height: 200px;
+}
+
+
+.p1 {
+    font-size: 70px;
+    font-family: fantasy;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+
+h1 {
+    font-size: 38px;
+    font-family: system-ui;
+    margin: 0;
+}
+
+.p2 {
+   
+    font-size: 21px;
+    font-family: system-ui;
+    color: #000000cb;
+}
+
+.p3 a {
+    color: #38d2d9;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.p3 {
+    font-size: 21px;
+    font-family: sans-serif;
+    margin-top: 0;
+
+}
+.learnMore{
+    font-size: 19px;
+    width: 208px;
+    height: 57px;
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    
+
+}
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 427px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+    line-height: 1.5;
+    
+
+}
+.content h2{
+    font-size: 35px;
+    margin: 5px;
+}
+#c1{
+    background-color: black;
+
+}
+#c2{
+    background-color:#38d2d9;
+}
+#c3{
+    background-color: #14b8bf
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.anchor{
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+
+}
+.anchor img {
+    width: 80px;
+    height: 80px;
+}
+.anchor h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.anchor p{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+}
+.ourwork{
+    width: 145px;
+    padding: 10px;
+    border: 2px solid #80808066;
+    margin: 46px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.ourwork a{
+    color: black;
+}
+.doing{
+    width: 100%;
+    display: flex;
+}
+.doingcontent{
+    height: 600px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+
+
+
+}
+#image{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/675b4aa34cd8574fa1b4e82c/3488.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.doingcontent h2{
+    font-size: 40px;
+}
+.doingcontent p{
+
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
 .bouton{
     width: 170px;
     height: 25px;
@@ -163,10 +372,23 @@ svg{
     -o-border-radius: 30px;
     padding: 12px;
     margin-top: 30px;
-    
-
-    
 }
+
+.doinglearn{
+
+    width: 170px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 12px;
+    margin-bottom: 30px;
+}
+   
+
 #prblm{
 margin-bottom: 100px;
 }
@@ -261,5 +483,105 @@ margin-bottom: 100px;
     .droite {
         flex: none;
     }
+}
+
+    
+#para{
+    display: flex;
+    background-color: #38d2d9;
+    color: white;
+    font-family: sans-serif;
+
+    
+}
+.doinglearn a{
+    color:  #38d2d9;
+    font-size: 15px;
+}
+.doinglearn:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+@media screen and (max-width: 1200px){
+    .paracontainer{
+        padding-right: 40px;
+       }
+       .acc{
+        justify-content: space-around;
+       }
+       .p1{
+        font-size: 40px;
+       }
+       .p2{
+        font-size:17px ;
+       }
+       .p3{
+        font-size: 16px;
+       }
+       .vide{
+        width: 400px;
+       }
+    }
+
+
+@media screen and (max-width: 770px){
+    .vide{
+        width: 0;
+        height: 0;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    .content{
+        height: 500px;
+        padding: 70px;
+    }
+   .doing{
+    display: block;
+
+
+   }
+   .p1{
+    font-size: 38px;
+   }
+   .p2{
+    font-size:16px ;
+   }
+   .p3{
+    font-size: 13px;
+   }
+   .acc{
+    justify-content:center;
+    align-items:flex-end;
+   }
+
+   .paracontainer{
+    margin-left: 0;
+    padding: 10px;
+    width: 470px;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+   }
+   
+
+    
+
+}
+
+@media screen and (max-width: 570px){
+    .paracontainer{
+        width: 337px;
+    }
+    .acc{
+        background-position: right;
+        background-position-x: 90%;
+    }
+
 
 }
